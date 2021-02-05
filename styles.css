@@ -10,8 +10,10 @@
 }
 .about_container__buttons {
     margin-top: -30px;
+    padding-left: 108px;
+    padding-right: 108px;
 }
 
-.about_container__title {
-    max-width: 50vw;
+.btn-check:active+.btn-primary, .btn-check:checked+.btn-primary, .btn-primary.active, .btn-primary:active, .show>.btn-primary.dropdown-toggle {
+    background-color: #f9a63f;
 }
